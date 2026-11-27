@@ -1,17 +1,30 @@
-# holiday_note
 
-A new Flutter project.
+# 🇰🇷 한국 공휴일 달력 & 나만의 한 줄 메모장
 
-## Getting Started
+## 📌 프로젝트 소개
 
-This project is a starting point for a Flutter application.
+한국의 공휴일 정보를 달력 형태로 확인하고,
+날짜별로 나만의 메모를 작성하고 관리할 수 있는 웹 애플리케이션입니다.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ 주요 기능
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Firebase 이메일 회원가입 및 로그인
+- 한국 공휴일 정보 API 연동
+- 월별 공휴일 달력 제공
+- 날짜 선택 기능
+- 날짜별 개인 메모 작성 및 저장
+- 저장된 메모 조회 및 삭제
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 기술 스택
+
+| 구분 | 기술 |
+|---|---|
+| Frontend | Flutter |
+| Authentication | Firebase Authentication |
+| Database | Cloud Firestore |
+| API | 한국천문연구원 특일 정보 API |
+| Deployment | GitHub Pages |
+
+## 🌐 배포 주소
+
+https://huiarchive.github.io/holiday-note/
